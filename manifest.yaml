@@ -1,0 +1,6 @@
+applications:
+  - name: nestjs-backend
+    memory: 512M
+    disk_quota: 1G
+    buildpack: nodejs_buildpack
+    command: npm start
